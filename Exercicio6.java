@@ -1,25 +1,18 @@
 import java.util.Scanner;
 class Exercicio6{
-	public static void main(String[]args){
-		
-		int A;
-		int B;
-		int C;
-		
-		Scanner ler = new Scanner(System.in);
-		System.out.println("Informe o numero A: ");
-		A = ler.nextInt();
-		System.out.println("Informe o numero B: ");
-		B = ler.nextInt();
-		System.out.println("Informe o numero C: ");
-		C = ler.nextInt();
-		
-		if ((A>B)&&(A>C))
-			System.out.println("O valor A é o maior");
-		else if ((B>A)&&(B>C))
-				System.out.println("O valor B é o maior");
-				
-		else if((C>A)&&(C>B))
-				System.out.println("O valor C é o maior");
-	}
+public static void main(String[]args){
+
+int x;
+int mult=0;
+
+Scanner ler = new Scanner(System.in);
+System.out.println("Informe o numero: ");
+x = ler.nextInt();
+
+for(int i=1; i<=x ; i++){
+	mult=mult+1;
+	System.out.println(i+mult);
+}
+
+}
 }

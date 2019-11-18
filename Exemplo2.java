@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Exercicio2{
+class Exemplo2{
 	public static void main(String[]args){
 		int x;
 		
@@ -9,8 +9,12 @@ class Exercicio2{
 		System.out.println("Por favor informe o numero: ");
 		x = ler.nextInt();
 		
-		for(int i=0;i<=10;i++){
+		int i = 0;
+		
+		while(i<=10)
+		{
 			System.out.println(x*i);
+			i++;
 		}
 	}
 }
