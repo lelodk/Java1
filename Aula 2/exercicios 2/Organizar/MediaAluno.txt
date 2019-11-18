@@ -1,0 +1,21 @@
+java.util.Scanner
+class MediaAluno{
+	public static void main(String[] args){
+		
+		int = x
+		double nota1 = x;
+		double nota2 = x;
+		double nota3 = x;
+		double media = (nota1+nota2+nota3)/3;
+		
+		Scanner ler = new Scanner(System.in);
+		nota1 = ler.nextDouble();
+		nota2 = ler.nextDouble();
+		nota3 = ler.nextDouble();
+		
+		System.out.println(media);
+		
+		
+		
+		}
+		}
